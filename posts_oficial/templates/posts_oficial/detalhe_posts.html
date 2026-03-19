@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.titulo }}</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+
+<h1>🌊 personagem </h1>
+
+<div class="post">
+    <h2>🧽 {{ post.titulo }}</h2>
+
+    <p>{{ post.conteudo }}</p>
+
+    <small>{{ post.data_publicacao }}</small>
+
+    <p class="tag">🏷️ {{ post.tag.nome }}</p>
+
+    <br>
+    <a href="/">⬅ Voltar</a>
+</div>
+
+</body>
+</html>

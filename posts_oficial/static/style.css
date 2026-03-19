@@ -1,0 +1,89 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+    background: linear-gradient(to bottom, #87cefa, #e0f7ff);
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: #023e8a;
+    font-weight: 700;
+}
+
+/* Cards dos posts */
+.post {
+    background-color: #fff8dc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 65%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+.post:hover {
+    transform: scale(1.02);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #023e8a;
+}
+
+/* Texto */
+p {
+    color: #333;
+}
+
+/* Data */
+small {
+    color: #666;
+}
+
+/* Tag estilizada */
+.tag {
+    display: inline-block;
+    background-color: #caf0f8;
+    color: #03045e;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.post p {
+    line-height: 1.5;
+}
+
+body {
+    background-attachment: fixed;
+}
+
+/* Estilo para as fotos dos personagens ao lado do título */
+.foto-personagem {
+    width: 40px; /* Largura da imagem */
+    height: 40px; /* Altura da imagem */
+    object-fit: cover; /* Evita que a imagem fique esticada/espremida */
+    /*border-radius: 50%; Deixa a imagem redondinha (opcional, tire se quiser quadrada)*/
+    vertical-align: middle; /* Alinha a imagem certinho com o texto do lado */
+    margin-right: 10px; /* Dá um espacinho entre a foto e o nome do personagem */
+}
