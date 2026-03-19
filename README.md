@@ -1,7 +1,7 @@
-# Blog da Fenda do Biquíni
+## Blog da Fenda do Biquíni
 Um blog simples e divertido construído em Django para apresentar alguns personagens clássicos do Bob Esponja! Feito para atividade prática da disciplina de Desenvolvimento WEB 2, administrado pelo professor Rodrigo Lira.
 
-## Tecnologias usadas
+### Tecnologias usadas
 * Python & Django
 * HTML5 & CSS3 (com design personalizado e emojis!)
 * SQLite
