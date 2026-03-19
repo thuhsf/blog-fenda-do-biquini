@@ -1,19 +1,20 @@
-## Blog da Fenda do Biquíni
-Um blog simples e divertido construído em Django para apresentar alguns personagens clássicos do Bob Esponja! Feito para atividade prática da disciplina de Desenvolvimento WEB 2, administrado pelo professor Rodrigo Lira.
+## blog da fenda do biquíni
+um blog simples e divertido construído em django para apresentar alguns personagens clássicos do bob esponja!
+feito para atividade prática da disciplina de desenvolvimento WEB 2, administrado pelo professor rodrigo lira.
 
-### Tecnologias usadas
+### tecnologias usadas
 * Python & Django
 * HTML5 & CSS3 (com design personalizado e emojis!)
 * SQLite
 
-### Como rodar na sua máquina
-1. Clone o repositório: 
+### como rodar na sua máquina
+1. clone o repositório: 
    `git clone https://github.com/thuhsf/blog-fenda-do-biquini.git`
-2. Entre na pasta do projeto: 
+2. entre na pasta do projeto: 
    `cd blog-fenda-do-biquini`
-3. Rode o servidor: 
+3. rode o servidor: 
    `python manage.py runserver`
-4. Acesse `http://127.0.0.1:8000/` no seu navegador.
+4. acesse `http://127.0.0.1:8000/` no seu navegador.
 
 ---
-Feito por thuanny helen.
+feito por thuanny helen.
